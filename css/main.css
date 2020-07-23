@@ -8,15 +8,18 @@ body {
   margin: 0 auto;
   background-color: #efefef;
   display: grid;
-  /*create 3 columns one at 380px, another at 380px and the final at 400px*/
-  grid-template-columns: 380px 380px 400px;
 
-  /* create 6 columns using a shorthand repeat -each columns will be 180px*/
-  grid-template-columns: repeat(6, 100px);
-  /*could use auto to take a coulmn fluid*/
-  /*Creating gutters essential*/
-  grid-gap: 10px;
+  /* explicit vs implicit rows */
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 500px;
+
+  /* Implicit Rows */
+  
+
+  grid-gap: 20px;
 }
+
+
 
 .box {
   background-color: #8ea86e;
