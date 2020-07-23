@@ -9,12 +9,9 @@ body {
   background-color: #efefef;
   display: grid;
 
-  /* explicit vs implicit rows */
-  grid-template-columns: 200px 400px;
-  grid-template-rows: 400px;
+  /* 4 columns that take up the same space */
+  grid-template-columns: repeat(4, 1fr);
 
-  /* Implicit Rows */
-  grid-auto-rows: 400px;
 
   grid-gap: 20px;
 }
