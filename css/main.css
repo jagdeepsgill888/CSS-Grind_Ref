@@ -11,10 +11,10 @@ body {
 
   /* explicit vs implicit rows */
   grid-template-columns: 200px 400px;
-  grid-template-rows: 500px;
+  grid-template-rows: 400px;
 
   /* Implicit Rows */
-  
+  grid-auto-rows: 400px;
 
   grid-gap: 20px;
 }
